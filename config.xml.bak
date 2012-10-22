@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.testroban"
+        id        = "com.retter2012.testroban"
         version   = "2.0.0">
     <name>testroban</name>
 
