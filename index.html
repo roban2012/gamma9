@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+	God gives, but man must open his hands. 
+	You can contact Retter Team through jobnet@188.com 
+-->
+
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="gb2312"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<title>Retter2012</title>
+	<meta name="Author" content="Roban">
+	<meta name="Keywords" content="Mobile PSN">
+
+	<script type="text/javascript">
+  		function login()
+		{
+		var userName=document.getElementById("userName").value;
+ 		var pwd=document.getElementById("password").value;
+		<!-- 注释：利用DOM对象，获得元素属性！ -->
+		var matchResult=true;
+		if(userName==""||pwd==""){
+ 			alert("请确认用户名和登陆密码输入正确！");
+ 			matchResult=false;
+		}
+		//
+		//alert ("进入到JS函数中，ok")
+		//alert (userName)
+		//alert (pwd)
+		
+		return matchResult;
+		}
+	</script>
+
+</head>
+
+<body bgcolor= "white" background= "" text="black" link="silver" alink="navy" vlink="">
+	<center>
+	<font size=5> Retter2012</font>
+	<a href= "img/icon1024dpi.png" title="点击看图"> <img src="img/icon96.png" alt="点击图片查看大图" border="5"> </a> 
+
+	<br>
+	<hr size= "2">
+	<br>
+
+	<form name="loginForm" onsubmit="return login()" action="splash.html">
+		<font size=7> 请输入你的姓名：</font>
+		<input id="userName" name= "这是默认值" type="text" value="Roban">
+		<br /> 
+		<font size=7>请输入你的密码：</font>
+		<input id="password" name= "这是默认值" type="password">
+		<br /> 
+		<input type="submit" value="登录">
+		<input type="reset" value="取消">
+	</form>
+	<hr size= "1">
+	<font size=3>
+	Retter&nbsp;&copy;&nbsp;Roban
+	</font>
+	</center>
