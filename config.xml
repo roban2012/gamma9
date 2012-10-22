@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="gb2312"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.testroban"
+        id        = "com.retter2012.rtest"
         version   = "2.0.0">
-    <name>testroban</name>
+    <name>rtest</name>
 
     <description>
        This is my apps with BDD ideas. Open Source Only! by Roban(jobnet@188.com)
     </description>
 
     <author email="jobnet@188.com">
-        Retter & Roban Team
+        Retter Team
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -20,6 +20,6 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 
-    <icon src="icon.png"/>
+    <icon src="icon96.png"/>
     
 </widget>
