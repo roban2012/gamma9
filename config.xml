@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="gb2312"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.retter2012.test"
+        id        = "com.retter2012.testroban"
         version   = "2.0.0">
-    <name>2012Test</name>
+    <name>testroban</name>
 
     <description>
        This is my apps with BDD ideas. Open Source Only! by Roban(jobnet@188.com)
